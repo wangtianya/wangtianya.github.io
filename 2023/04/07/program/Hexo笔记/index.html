@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="links: 官方主页 配置未说明情况下，文件均为主目录_config.yml。 Markdown目录配置12345678910toc:  enable: true  # Automatically add list number to toc.  number: false  # If true, all words will placed on next lines if header wid">
+  <meta name="description" content="个人使用Hexo + Next的一些心得和笔记。是笔记，不是教程。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo笔记">
 <meta property="og:url" content="http://example.com/2023/04/07/program/Hexo%E7%AC%94%E8%AE%B0/index.html">
-<meta property="og:site_name" content="王小花">
-<meta property="og:description" content="links: 官方主页 配置未说明情况下，文件均为主目录_config.yml。 Markdown目录配置12345678910toc:  enable: true  # Automatically add list number to toc.  number: false  # If true, all words will placed on next lines if header wid">
+<meta property="og:site_name" content="王小花他爹的博客">
+<meta property="og:description" content="个人使用Hexo + Next的一些心得和笔记。是笔记，不是教程。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-07T03:34:17.990Z">
-<meta property="article:modified_time" content="2023-04-07T04:44:35.311Z">
+<meta property="article:modified_time" content="2023-04-07T05:39:47.406Z">
 <meta property="article:author" content="Godya">
 <meta name="twitter:card" content="summary">
 
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>Hexo笔记 | 王小花</title>
+  <title>Hexo笔记 | 王小花他爹的博客</title>
   
 
 
@@ -96,10 +96,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">王小花</h1>
+      <h1 class="site-title">王小花他爹的博客</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">123</p>
+      <p class="site-subtitle" itemprop="description">他人即地狱，人间即地狱！</p>
   </div>
 
   <div class="site-nav-right">
@@ -170,7 +170,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王小花">
+      <meta itemprop="name" content="王小花他爹的博客">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -185,7 +185,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-04-07 11:34:17 / 修改时间：12:44:35" itemprop="dateCreated datePublished" datetime="2023-04-07T11:34:17+08:00">2023-04-07</time>
+              <time title="创建时间：2023-04-07 11:34:17 / 修改时间：13:39:47" itemprop="dateCreated datePublished" datetime="2023-04-07T11:34:17+08:00">2023-04-07</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -212,32 +212,112 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>links: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官方主页</a></p>
+        <p>个人使用Hexo + Next的一些心得和笔记。是笔记，不是教程。</p>
+<span id="more"></span>
+
+<p>links: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官方主页</a></p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="部署相关"><a href="#部署相关" class="headerlink" title="部署相关"></a>部署相关</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo clean <span class="token operator">&amp;&amp;</span> hexo generate <span class="token operator">&amp;&amp;</span> hexo deploy <span class="token comment"># 发布一条龙</span>
+hexo clean <span class="token operator">&amp;&amp;</span> hexo server <span class="token comment"># 本地改配置后重载</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>未说明情况下，文件均为主目录_config.yml。</p>
-<h3 id="Markdown目录配置"><a href="#Markdown目录配置" class="headerlink" title="Markdown目录配置"></a>Markdown目录配置</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Automatically add list number to toc.</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># If true, all words will placed on next lines if header width longer then sidebar width.</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># If true, all level of TOC in a post will be displayed, rather than the activated part of it.</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Maximum heading depth of generated toc.</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
+<h3 id="Markdown目录配置"><a href="#Markdown目录配置" class="headerlink" title="Markdown目录配置"></a>Markdown目录配置</h3><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">toc</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># Automatically add list number to toc.</span>
+  <span class="token key atrule">number</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token comment"># If true, all words will placed on next lines if header width longer then sidebar width.</span>
+  <span class="token key atrule">wrap</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token comment"># If true, all level of TOC in a post will be displayed, rather than the activated part of it.</span>
+  <span class="token key atrule">expand_all</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># Maximum heading depth of generated toc.</span>
+  <span class="token key atrule">max_depth</span><span class="token punctuation">:</span> <span class="token number">6</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="代码高亮相关配置"><a href="#代码高亮相关配置" class="headerlink" title="代码高亮相关配置"></a>代码高亮相关配置</h3><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># 行号去了，就美观了</span>
+  <span class="token key atrule">auto_detect</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span>
+  <span class="token key atrule">wrap</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">hljs</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">prismjs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">preprocess</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="文章阶段（阅读更多）"><a href="#文章阶段（阅读更多）" class="headerlink" title="文章阶段（阅读更多）"></a>文章阶段（阅读更多）</h3><p>1.配置，但感觉没用，还得再研究下</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">auto_excerpt</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">length</span><span class="token punctuation">:</span> <span class="token number">150</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>2.在markdown文章的合适位置加入 『截断标签』。</p>
+<pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token comment">&lt;!-- more --></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 
 
 <h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p>主题可以在官网进行搜搜索，<a target="_blank" rel="noopener" href="https://hexo.io/themes/">官网：Hexo Themes</a>，建议使用Top1主题 『Next』。</p>
 <p>1.下载主题。主题一般以github仓库的形式存在，需要通过clone或下载，把主题搞到本地；</p>
 <p>2.拷贝至themes目录；</p>
 <p>3.在_config.yml，更改主题</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment">## Themes: https://hexo.io/themes/</span>
+<span class="token key atrule">theme</span><span class="token punctuation">:</span> next<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
 
 <h3 id="主题美化"><a href="#主题美化" class="headerlink" title="主题美化"></a>主题美化</h3><p><strong>字体美化</strong></p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 正文字体太大，缩小一点点</span></span><br><span class="line"><span class="variable">$font</span>-size-large          = <span class="number">1em</span>; <span class="comment">// 1.125em -&gt; 15em</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-stylus" data-language="stylus"><code class="language-stylus"><span class="token comment">// 正文字体太大，缩小一点点</span>
+<span class="token variable-declaration"><span class="token variable">$font-size-large</span>          <span class="token operator">=</span> <span class="token number">1</span><span class="token unit">em</span><span class="token punctuation">;</span> <span class="token comment">// 1.125em -> 15em</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><strong>圆角美化</strong></p>
+<pre class="line-numbers language-stylus" data-language="stylus"><code class="language-stylus"># Gemini<span class="token punctuation">.</span>styl 自己用的哪个主题，就改哪个
+<span class="token comment">// $border-radius-inner     = initial;</span>
+<span class="token comment">// $border-radius           = initial;</span>
+<span class="token variable-declaration"><span class="token variable">$border-radius-inner</span>     <span class="token operator">=</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">20</span><span class="token unit">px</span> <span class="token number">20</span><span class="token unit">px</span><span class="token punctuation">;</span></span>
+<span class="token variable-declaration"><span class="token variable">$border-radius</span>           <span class="token operator">=</span> <span class="token number">20</span><span class="token unit">px</span><span class="token punctuation">;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
-<h2 id="安装及部署"><a href="#安装及部署" class="headerlink" title="安装及部署"></a>安装及部署</h2><h3 id="本地安装、部署"><a href="#本地安装、部署" class="headerlink" title="本地安装、部署"></a>本地安装、部署</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g <span class="comment"># 安装</span></span><br><span class="line">hexo init blog <span class="comment"># 创建仓库</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install <span class="comment"># 安装依赖</span></span><br><span class="line">hexo server <span class="comment"># 部署</span></span><br></pre></td></tr></table></figure>
+<h2 id="安装及部署"><a href="#安装及部署" class="headerlink" title="安装及部署"></a>安装及部署</h2><h3 id="本地安装、部署"><a href="#本地安装、部署" class="headerlink" title="本地安装、部署"></a>本地安装、部署</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-cli <span class="token parameter variable">-g</span> <span class="token comment"># 安装</span>
+hexo init blog <span class="token comment"># 创建仓库</span>
+<span class="token builtin class-name">cd</span> blog
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token comment"># 安装依赖</span>
+hexo server <span class="token comment"># 部署</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h3 id="Docker部署"><a href="#Docker部署" class="headerlink" title="Docker部署"></a>Docker部署</h3><p>如果自己有服务器，可以选择用docker快速部署</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># docker-compose</span></span><br><span class="line"><span class="attr">version:</span> <span class="string">&quot;3.3&quot;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">ya-api:</span></span><br><span class="line">    <span class="attr">build:</span></span><br><span class="line">      <span class="attr">context:</span> <span class="string">.</span></span><br><span class="line">      <span class="attr">dockerfile:</span> <span class="string">docker.file</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">extra_hosts:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;host_addr:host-gateway&quot;</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;8081:4000&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/share/ya/codes/blog:/workspace</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># docker-compose</span>
+<span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">"3.3"</span>
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">ya-api</span><span class="token punctuation">:</span>
+    <span class="token key atrule">build</span><span class="token punctuation">:</span>
+      <span class="token key atrule">context</span><span class="token punctuation">:</span> .
+      <span class="token key atrule">dockerfile</span><span class="token punctuation">:</span> docker.file
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">extra_hosts</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">"host_addr:host-gateway"</span>
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">"8081:4000"</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> /share/ya/codes/blog<span class="token punctuation">:</span>/workspace<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
-<figure class="highlight docker"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># docker-file</span></span><br><span class="line"><span class="keyword">FROM</span> node:<span class="number">18</span>-alpine</span><br><span class="line"><span class="keyword">WORKDIR</span><span class="language-bash"> /workspace</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> <span class="built_in">echo</span> <span class="string">&quot;Asia/Shanghai&quot;</span> &gt; /etc/timezone \</span></span><br><span class="line"><span class="language-bash">    &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;https://mirrors.ustc.edu.cn/alpine/v3.9/main/&quot;</span> &gt; /etc/apk/repositories  \</span></span><br><span class="line"><span class="language-bash">    &amp;&amp; npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org \</span></span><br><span class="line"><span class="language-bash">    &amp;&amp; apk add --no-cache git \</span></span><br><span class="line"><span class="language-bash">    &amp;&amp; npm install hexo-cli -g</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">ADD</span><span class="language-bash"> *.sh /</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> <span class="built_in">chmod</span> 777 /*.sh</span></span><br><span class="line"><span class="keyword">ENTRYPOINT</span><span class="language-bash"> [<span class="string">&quot;sh&quot;</span>, <span class="string">&quot;/start.sh&quot;</span>]</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># start.sh</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="subst">$(pwd)</span>&quot;</span></span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-docker" data-language="docker"><code class="language-docker"><span class="token comment"># docker-file</span>
+<span class="token instruction"><span class="token keyword">FROM</span> node:18-alpine</span>
+<span class="token instruction"><span class="token keyword">WORKDIR</span> /workspace</span>
+
+<span class="token instruction"><span class="token keyword">RUN</span> echo <span class="token string">"Asia/Shanghai"</span> > /etc/timezone <span class="token operator">\</span>
+    &amp;&amp; echo <span class="token string">"https://mirrors.ustc.edu.cn/alpine/v3.9/main/"</span> > /etc/apk/repositories  <span class="token operator">\</span>
+    &amp;&amp; npm config set registry https://registry.npm.taobao.org <span class="token operator">\</span>
+    &amp;&amp; apk add --no-cache git <span class="token operator">\</span>
+    &amp;&amp; npm install hexo-cli -g</span>
+
+<span class="token instruction"><span class="token keyword">ADD</span> *.sh /</span>
+<span class="token instruction"><span class="token keyword">RUN</span> chmod 777 /*.sh</span>
+<span class="token instruction"><span class="token keyword">ENTRYPOINT</span> [<span class="token string">"sh"</span>, <span class="token string">"/start.sh"</span>]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># start.sh</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">pwd</span><span class="token variable">)</span></span>"</span>
+<span class="token function">npm</span> <span class="token function">install</span>
+hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h3 id="Github-Pages-部署"><a href="#Github-Pages-部署" class="headerlink" title="Github Pages 部署"></a>Github Pages 部署</h3><p>需要做三件事：</p>
 <p>1.创建github pages仓库；</p>
@@ -245,17 +325,23 @@
 <li>建立同名仓库即可，用户名wangtianya，则建立wangtianya.github.io</li>
 </ul>
 <p>2.添加本地配置(_config.yml)</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># _config.yml </span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/wangtianya/wangtianya.github.io</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># _config.yml </span>
+<span class="token comment">## Docs: https://hexo.io/docs/one-command-deployment</span>
+<span class="token key atrule">deploy</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+  <span class="token key atrule">repository</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/wangtianya/wangtianya.github.io
+  <span class="token key atrule">branch</span><span class="token punctuation">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>3.生成静态文件，并部署</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy <span class="comment"># 部署至github</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo clean <span class="token operator">&amp;&amp;</span> hexo generate <span class="token operator">&amp;&amp;</span> hexo deploy <span class="token comment"># 部署至github</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>4.绑定自定义域名</p>
 <ul>
 <li>在pages仓库的设置里自定义。</li>
-<li>本地source文件夹添加CANME文件，填上自己的域名，防止deploy后远程仓库清除配置。参考 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_49175501/article/details/128705141">hexo 上传后gitHub 中custom domain 被重置</a></li>
+<li>本地source文件夹添加CANME文件，填上自己的域名，防止deploy后远程仓库清除配置。</li>
 </ul>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>分类及标签<br><a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2">参考文档</a></p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_49175501/article/details/128705141">hexo 上传后gitHub 中custom domain 被重置</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2">Next参考文档：创建分类页面</a></p>
 
     </div>
 
@@ -333,7 +419,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE"><span class="nav-text">Markdown目录配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98"><span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="nav-text">更换主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96"><span class="nav-text">主题美化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%8F%8A%E9%83%A8%E7%BD%B2"><span class="nav-text">安装及部署</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85%E3%80%81%E9%83%A8%E7%BD%B2"><span class="nav-text">本地安装、部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker%E9%83%A8%E7%BD%B2"><span class="nav-text">Docker部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-Pages-%E9%83%A8%E7%BD%B2"><span class="nav-text">Github Pages 部署</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8"><span class="nav-text">使用</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E7%9B%B8%E5%85%B3"><span class="nav-text">部署相关</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE"><span class="nav-text">Markdown目录配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE"><span class="nav-text">代码高亮相关配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E9%98%B6%E6%AE%B5%EF%BC%88%E9%98%85%E8%AF%BB%E6%9B%B4%E5%A4%9A%EF%BC%89"><span class="nav-text">文章阶段（阅读更多）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98"><span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="nav-text">更换主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96"><span class="nav-text">主题美化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%8F%8A%E9%83%A8%E7%BD%B2"><span class="nav-text">安装及部署</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85%E3%80%81%E9%83%A8%E7%BD%B2"><span class="nav-text">本地安装、部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker%E9%83%A8%E7%BD%B2"><span class="nav-text">Docker部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-Pages-%E9%83%A8%E7%BD%B2"><span class="nav-text">Github Pages 部署</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%95%E7%94%A8"><span class="nav-text">引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5"><span class="nav-text">相关链接</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -390,12 +476,12 @@
   
   &copy; 
   <span itemprop="copyrightYear">2023</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
   <span class="author" itemprop="copyrightHolder">Godya</span>
+  
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  <div class="powered-by">
+  <span>本站全部原创内容版权归作者所有，未经允许不得转载。</span>
+  <br />由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
