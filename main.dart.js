@@ -85642,7 +85642,7 @@ s=A.avt(J.c(l.i(m,o),1)?A.eq(j).go:A.eq(j).dy,B.LC,B.ix)
 s=A.rt(A.cU(J.c(l.i(m,o),1)?"\u5df2\u8bfb":"\u672a\u8bfb",p,p,p,p,p,p),p,new A.a9O(q),s)
 j=A.avt(J.c(l.i(m,n),1)?A.T(255,115,172,107):A.eq(j).dy,B.LD,B.ix)
 r=t.p
-return A.ih(A.b([k,A.by(B.au,A.ayg(B.hv,A.b([s,A.rt(A.cU(J.c(l.i(m,n),1)?"\u6536\u85cf":"\u672a\u6536\u85cf",p,p,p,p,p,p),p,new A.a9P(q),j),A.by(B.au,A.cU(J.cb(l.i(m,"create_time_str")),p,p,p,p,p,p),B.j,p,p,p,30,B.mp,p,80),A.by(B.au,A.cU(J.cb(l.i(m,"author_name")),p,p,p,p,p,p),B.j,p,p,p,30,B.mp,p,120)],r),B.Y,8,8),B.j,p,p,p,p,p,p,1/0)],r),B.ar,B.e0,B.aE)}}
+return A.ih(A.b([k,A.by(B.au,A.ayg(B.hv,A.b([s,A.rt(A.cU(J.c(l.i(m,n),1)?"\u6536\u85cf":"\u672a\u6536\u85cf",p,p,p,p,p,p),p,new A.a9P(q),j),A.by(B.au,A.cU(J.cb(l.i(m,"create_time_str")),p,p,p,p,p,p),B.j,p,p,p,35,B.mp,p,90),A.by(B.au,A.cU(J.cb(l.i(m,"author_name")),p,p,p,p,p,p),B.j,p,p,p,35,B.mp,p,120)],r),B.Y,8,8),B.j,p,p,p,p,p,p,1/0)],r),B.ar,B.e0,B.aE)}}
 A.a9N.prototype={
 $0(){var s=this.a,r=A.i(J.az(s.e,"id")),q=$.N
 if(q==null)q=$.N=B.l
